@@ -88,7 +88,7 @@ public class List {
             System.out.print("Empty List.");
         } else {
             Node actual = this.first;
-            while (actual != last) {
+            while (actual != null) {
                 actual.nodeDisplay();
                 actual = actual.getNext();
             }
